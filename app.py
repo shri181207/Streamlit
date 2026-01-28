@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 
 #
-st.image(r"C:\Users\KiTE\Pictures\Screenshots\Screenshot 2026-01-28 100134.png", width=800)
+# If you moved it to the same folder as app.py
+st.image("bg.png", width=800)
 st.title("welcome")
 st.write("Hello Streamlit")
 
